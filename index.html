@@ -10,6 +10,8 @@
 	<script src="https://kit.fontawesome.com/ea1f5478aa.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="slider.css">
 	<!-- meta tags -->
+	<meta  name="viewport" content="width=device-width initial-scale=1">
+
 </head>
 <body>
 	<nav id="topbar">
@@ -39,7 +41,7 @@
 			<i class="fas fa-microphone"></i>
 		</div>
 		
-
+		<!-- profile name and pic , click on the pic to change the avatar -->
 		<div class="profile inline-div">
 			<div id="name">Chitesh Bansal</div>
 			<img src="images/user.jpg" height="50" width="50" class="myimg" onclick='changetheprofile()'>
@@ -57,6 +59,7 @@
 
 		
 	</nav>
+	<!-- Section for the carsoul -->
 	<section id="slider-container">
 		<section id="slider">
 			<input type="radio" name="slider" id="s1" checked>
@@ -80,7 +83,7 @@
 			
 		</section>
 	</section>
-
+	<!-- Main Section with all artist and songss  -->
 	<main id="main-section">
 		<div id="content-section">
 			<div class="heading"><h2>Popular Artists</h2></div>
@@ -90,27 +93,31 @@
 					<figcaption>Arijit Singh</figcaption>
 				</figure>
 				<figure>
-					<img src="images/atif.jpg" width="150" height="150">
+					<a href="artist.html"><img src="images/atif.jpg" width="150" height="150"></a>
 					<figcaption>Atif Aslam</figcaption>
 				</figure>
 				<figure>
-					<img src="images/eminem.jpg" width="150" height="150">
+					<a href="artist.html"><img src="images/eminem.jpg" width="150" height="150"></a>
 					<figcaption>Eminem</figcaption>
 				</figure>
 				<figure>
-					<img src="images/justin.jpg" width="150" height="150">
+					<a href="artist.html"><img src="images/justin.jpg" width="150" height="150"></a>
 					<figcaption>Justin Bieber</figcaption>
 				</figure>
 				<figure>
-					<img src="images/arijit.jpg" width="150" height="150">
+					<a href="artist.html"><img src="images/arijit.jpg" width="150" height="150"></a>
 					<figcaption>Arijit Singh</figcaption>
 				</figure>
 				
 			</div>
+			<!-- Latest Release -->
 			<div class="heading"><h2>Latest Release</h2></div>
 			<div id="latest-release" class="container">
 				<figure>
-					<img src="images/letmeloveyou.jpg" width="200" height="200">
+					
+						<img src="images/letmeloveyou.jpg" width="200" height="200">
+						
+					
 					<figcaption>
 						<div>
 							Let me love you
@@ -127,6 +134,7 @@
 						</div>
 						<span>Justin Bieber</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/kamaalhai.webp" width="200" height="200">
@@ -144,6 +152,7 @@
 							</div>
 						</div>						<span>Baadshah, Amit Uchana</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/chalgharchale.jpg" width="200" height="200">
@@ -162,6 +171,7 @@
 						</div>
 						<span>	Arijit Singh</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/kamaalhai.webp" width="200" height="200">
@@ -180,6 +190,7 @@
 						</div>
 						<span>Baadshah, Amit Uchana</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/chalgharchale.jpg" width="200" height="200">
@@ -197,8 +208,11 @@
 							</div>
 						</div>
 						<span>Arijit Singh</span></figcaption>
+						<i class="fas fa-play-circle"></i>
 				</figure>
 			</div>
+
+			<!-- Latest Punjabi songs section -->
 		<div class="heading"><h2>Latest Punjabi Songs</h2></div>
 			<div id="latest-punjabi" class="container">
 				<figure>
@@ -218,6 +232,7 @@
 						</div>
 						<span>Jass Manak</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/bugga.jpg" width="150" height="150">
@@ -236,6 +251,7 @@
 						</div>
 						<span>Baadshah, Amit Uchana</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/prada.jpg" width="150" height="150">
@@ -254,6 +270,7 @@
 						</div>
 						<span>Jass manak</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/motti.jpg" width="150" height="150">
@@ -272,6 +289,7 @@
 						</div>
 						<span>Baadshah, Amit Uchana</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 				<figure>
 					<img src="images/kamaalhai.webp" width="150" height="150">
@@ -290,6 +308,7 @@
 						</div>
 						<span>Baadshah, Amit Uchana</span>
 					</figcaption>
+					<i class="fas fa-play-circle"></i>
 				</figure>
 
 				
@@ -306,6 +325,7 @@
 				</section>
 			</section>
 		</div>
+<!-- Aside bar queue section --><!-- Aside bar queue section --><!-- Aside bar queue section --><!-- Aside bar queue section -->
 		<div id="playlist-section">
 			<div class="heading"> 
 				<span>Queue</span>
@@ -322,7 +342,7 @@
 			
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/kamaalhai.webp"></div>
+				<div class=" inline-div queue-img"><img src="images/kamaalhai.webp"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Kamaal Hai<br>
 					<span>baadshah</span>	
@@ -337,7 +357,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Let me Love you<br>
 					<span>Justin Bieber</span>	
@@ -352,7 +372,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/chalgharchale.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/chalgharchale.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Chal ghar chale<br>
 					<span>Arijit</span>	
@@ -367,7 +387,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/lengha.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/lengha.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Lehanga<br>
 					<span>Jass Manak</span>	
@@ -381,7 +401,7 @@
 				</div>
 			</div><div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/motti.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/motti.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Motti Motti Ank<br>
 					<span>baadshah</span>	
@@ -396,7 +416,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/kamaalhai.webp"></div>
+				<div class=" inline-div queue-img"><img src="images/kamaalhai.webp"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Kamaal Hai<br>
 					<span>baadshah</span>	
@@ -411,7 +431,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Let me Love you<br>
 					<span>Justin Bieber</span>	
@@ -426,7 +446,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/chalgharchale.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/chalgharchale.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Chal ghar chale<br>
 					<span>Arijit</span>	
@@ -441,7 +461,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/lengha.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/lengha.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Lehanga<br>
 					<span>Jass Manak</span>	
@@ -455,7 +475,7 @@
 				</div>
 			</div><div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/motti.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/motti.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Motti Motti Ank<br>
 					<span>baadshah</span>	
@@ -470,7 +490,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Let me Love you<br>
 					<span>Justin Bieber</span>	
@@ -485,7 +505,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/chalgharchale.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/chalgharchale.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Chal ghar chale<br>
 					<span>Arijit</span>	
@@ -500,7 +520,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/motti.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/motti.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Motti Motti Ank<br>
 					<span>baadshah</span>	
@@ -515,7 +535,7 @@
 			</div>
 			<div class=" queue-mem">
 				<div class="inline-div music-icon"><i class="fas fa-music"></i></div>
-				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"></div>
+				<div class=" inline-div queue-img"><img src="images/letmeloveyou.jpg"><i class="fas fa-play-circle"></i></div>
 				<div class="inline-div queue-mem-content">
 					Let me Love you<br>
 					<span>Justin Bieber</span>	
@@ -528,9 +548,12 @@
 					</div>
 				</div>
 			</div>
-
+			<!-- See all button  -->
 			<button type="submit">See All</button>			
 		</div>
+
+
+		<!-- Bottom Music player  Bottom Music Player Bottom Music Player Bottom Music Player  -->
 		<div id='bottom-musicplayer'>
 			<div id="section1" class=" player-section">
 				<div>
